@@ -61,6 +61,7 @@ int main()
 	int horas = 0;
 	int minutos = 0;
 
+
 	cout << "Digite seu nome: ";
 	cin >> nome;
 	cout << "Digite sua idade: ";
@@ -74,6 +75,41 @@ int main()
 
 	cout << "Qualquer tecla para sair...";
 	system("pause"); // somente no Windows
+
+	cout << "Exercicio 1\n";
+	cout << "int  max = " << INT_MAX << "\n";
+	cout << "int  min = " << INT_MIN << "\n";
+	cout << "short max = " << SHRT_MAX << "\n";
+	cout << INT_MAX + 1LL << endl;
+
+	system("pause");
+	system("cls");
+
+
+	cout << "Exercicio 2\n";
+
+	double temperatura = 0;
+	double fahrenheit = temperatura * 1.8 + 32;
+	double kelvin = temperatura + 273.15;
+
+	cout << "Digite a temperatura :\n";
+	cin >> temperatura;
+	fahrenheit = temperatura * 1.8 + 32;
+	cout << temperatura << " Temperatura em Fahrenheit :" << fahrenheit << endl;
+	kelvin = temperatura + 237.15;
+	cout << temperatura << " Temperatura em Kelvin :" << kelvin << endl;
+
+	system("pause");
+	system("cls");
+
+	
+	
+
+
+	
+
+	
+
 
 
 }
