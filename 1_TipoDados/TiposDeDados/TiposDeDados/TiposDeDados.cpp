@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 {
-	cout << "Estrutura de Dados - Fatec (2026/1)" << endl;
+	cout << "Estrutura de Dados - Fatec (2026/2)" << endl;
 
 	
 	cout << "Tipos Numericos\n";
@@ -34,6 +34,7 @@ int main()
 	cout << "=============\n";
 	char letra = 'Z';
 	cout << "char letra = " << letra << " ocupa " << sizeof(letra) << " bytes\n";
+
 
 	cout << "\nTipo string\n";
 	cout << "===========\n";
